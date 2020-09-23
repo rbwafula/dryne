@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/drynegr1/public_html/
+    - /bin/cp -R /home/drynegr1/gitrepo/testing $DEPLOYPATH
