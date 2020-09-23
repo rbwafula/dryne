@@ -2,4 +2,8 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/drynegr1/public_html/
-    - /bin/cp -R /home/drynegr1/gitrepo/testing $DEPLOYPATH
+    - /bin/cp -R /home/drynegr1/gitrepo/application $DEPLOYPATH
+    - /bin/cp -R /home/drynegr1/gitrepo/assets $DEPLOYPATH
+    - /bin/cp -R /home/drynegr1/gitrepo/system $DEPLOYPATH
+    - /bin/cp -R /home/drynegr1/gitrepo/index.php $DEPLOYPATH
+    - /bin/cp -R /home/drynegr1/gitrepo/.htaccess $DEPLOYPATH
