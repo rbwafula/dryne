@@ -31,7 +31,7 @@
 						@media (prefers-color-scheme: dark) {
 						    div.test {
 						        background-color: black;
-						        color: white;
+						        color: #ff0;
 						    }
 						}
 					</style>
