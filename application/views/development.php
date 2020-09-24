@@ -11,8 +11,18 @@
 			</div>
 			<div class="col-md-6 p-0">
 				<header id="header" class="p-4 p-md-5">
-					<a href="index.html">
-						<img alt="EZ" height="59" src="<?php echo base_url(); ?>assets/img/logo.png" class="appear-animation" data-appear-animation="fadeInRightShorter" data-plugin-options="{'accY': 100}">
+					<picture>
+					  <source 
+					    srcset="<?php echo base_url(); ?>assets/img/logo-dark.png" 
+					    media="(prefers-color-scheme: dark)">
+					  <img src="<?php echo base_url(); ?>assets/img/logo.png">
+					</picture>
+
+
+
+
+					<a href="<?php echo base_url(); ?>">
+						<img alt="<?php echo $settings[0]->value; ?>" height="59" src="<?php echo base_url(); ?>assets/img/logo.png" class="appear-animation logo" data-appear-animation="fadeInRightShorter" data-plugin-options="{'accY': 100}">
 					</a>
 				</header>
 				<hr class="opacity-4 my-0">
