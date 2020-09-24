@@ -11,12 +11,32 @@
 			</div>
 			<div class="col-md-6 p-0">
 				<header id="header" class="p-4 p-md-5">
-					<picture>
+					<!--<picture>
 					  <source 
 					    srcset="<?php echo base_url(); ?>assets/img/logo-dark.png" 
 					    media="(prefers-color-scheme: dark)">
 					  <img src="<?php echo base_url(); ?>assets/img/logo.png">
-					</picture>
+					</picture>-->
+
+					<style type="text/css">
+						/* Dark mode */
+						@media (prefers-color-scheme: light) {
+						    div.test {
+						        background-color: white;
+						        color: black;
+						    }
+						}
+
+						/* Dark mode */
+						@media (prefers-color-scheme: dark) {
+						    div.test {
+						        background-color: black;
+						        color: white;
+						    }
+						}
+					</style>
+					<div class="test">Test Data</div>
+
 
 
 
