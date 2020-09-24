@@ -1,5 +1,6 @@
 application/config/config.php
 application/config/database.php
+.htaccess
 
 
 # System or Log Files

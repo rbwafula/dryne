@@ -7,4 +7,5 @@ deployment:
     - /bin/cp -R /home/drynegr1/gitrepo/system $DEPLOYPATH
     - /bin/cp -R /home/drynegr1/gitrepo/index.php $DEPLOYPATH
     - /bin/cp -R /home/drynegr1/gitrepo/license.txt $DEPLOYPATH
+    - /bin/cp -R /home/drynegr1/gitrepo/.htaccess.md $DEPLOYPATH
     - /bin/cp -R /home/drynegr1/gitrepo/README.md $DEPLOYPATH
