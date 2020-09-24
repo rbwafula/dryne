@@ -1,3 +1,7 @@
+application/config/config.php
+application/config/database.php
+
+
 # System or Log Files
 *.DS_Store
 *.log

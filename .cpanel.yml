@@ -2,37 +2,9 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/drynegr1/public_html/
-    - /bin/cp -R /home/drynegr1/gitrepo/assets $DEPLOYPATH
+    - /bin/cp -R /home/drynegr1/gitrepo/application $DEPLOYPATH
+     - /bin/cp -R /home/drynegr1/gitrepo/assets $DEPLOYPATH
     - /bin/cp -R /home/drynegr1/gitrepo/system $DEPLOYPATH
     - /bin/cp -R /home/drynegr1/gitrepo/index.php $DEPLOYPATH
     - /bin/cp -R /home/drynegr1/gitrepo/license.txt $DEPLOYPATH
     - /bin/cp -R /home/drynegr1/gitrepo/README.md $DEPLOYPATH
-
-    - export DEPLOYPATH=/home/drynegr1/public_html/application/
-    - /bin/cp -R /home/drynegr1/gitrepo/application/controllers $DEPLOYPATH
-    - /bin/cp -R /home/drynegr1/gitrepo/application/core $DEPLOYPATH
-    - /bin/cp -R /home/drynegr1/gitrepo/application/helpers $DEPLOYPATH
-    - /bin/cp -R /home/drynegr1/gitrepo/application/hooks $DEPLOYPATH
-    - /bin/cp -R /home/drynegr1/gitrepo/application/language $DEPLOYPATH
-    - /bin/cp -R /home/drynegr1/gitrepo/application/libraries $DEPLOYPATH
-    - /bin/cp -R /home/drynegr1/gitrepo/application/logs $DEPLOYPATH
-    - /bin/cp -R /home/drynegr1/gitrepo/application/models $DEPLOYPATH
-    - /bin/cp -R /home/drynegr1/gitrepo/application/third_party $DEPLOYPATH
-    - /bin/cp -R /home/drynegr1/gitrepo/application/views $DEPLOYPATH
-    - /bin/cp -R /home/drynegr1/gitrepo/application/.htaccess $DEPLOYPATH
-    - /bin/cp -R /home/drynegr1/gitrepo/application/.index.html $DEPLOYPATH
-
-    - export DEPLOYPATH=/home/drynegr1/public_html/application/config/
-    - /bin/cp -R /home/drynegr1/gitrepo/application/config/autoload.php $DEPLOYPATH
-    - /bin/cp -R /home/drynegr1/gitrepo/application/config/constants.php $DEPLOYPATH
-    - /bin/cp -R /home/drynegr1/gitrepo/application/config/doctypes.php $DEPLOYPATH
-    - /bin/cp -R /home/drynegr1/gitrepo/application/config/foreign_chars.php $DEPLOYPATH
-    - /bin/cp -R /home/drynegr1/gitrepo/application/config/hooks.php $DEPLOYPATH
-    - /bin/cp -R /home/drynegr1/gitrepo/application/config/index.html $DEPLOYPATH
-    - /bin/cp -R /home/drynegr1/gitrepo/application/config/memcached.php $DEPLOYPATH
-    - /bin/cp -R /home/drynegr1/gitrepo/application/config/migration.php $DEPLOYPATH
-    - /bin/cp -R /home/drynegr1/gitrepo/application/config/mimes.php $DEPLOYPATH
-    - /bin/cp -R /home/drynegr1/gitrepo/application/config/profiler.php $DEPLOYPATH
-    - /bin/cp -R /home/drynegr1/gitrepo/application/config/routes.php $DEPLOYPATH
-    - /bin/cp -R /home/drynegr1/gitrepo/application/config/smileys.php $DEPLOYPATH
-    - /bin/cp -R /home/drynegr1/gitrepo/application/config/user_agents.php $DEPLOYPATH
