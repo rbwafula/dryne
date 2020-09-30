@@ -21,25 +21,25 @@
 		<section class="section bg-light-5">
 			<div class="container">
 				<div class="row justify-content-center">
-					<div class="col-md-8">
+					<div class="col-md-12">
 						<div class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="100">
 							<span class="top-sub-title text-color-primary">Our CSR Projects</span>
 							
 							<h2 class="font-weight-bold text-6 mb-3">Supporting local community</h2>
 						</div>
+
 						<p class="mb-4">Yes! It’s really important to us to be active members of our local communities and to make a positive difference where we do business.</p>
-
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-md-8">
 						<p class="mb-4">We support few charities and have partnered with community based organizations currently we sponsored <a href="https://www.tiplus.org/" class="link text-color-primary">T-Plus</a> which is a CBO that works with children and teens living with HIV/AIDs, they have more than 100 kids and teens, between the ages of 5 and 15, Underneath our vision and aspirations for the future sits a number of specific key social aims and objectives which drive our organisation, namely, to:</p>
-
-
-
 					</div>
 					<div class="col-md-4">
 						<header class="blog-post-header mb-3">
-							<img src="<?php echo base_url(); ?>assets/img/blog/generic/blog-18.jpg" class="img-fluid" alt="" />
+							<img src="<?php echo base_url(); ?>assets/img/tiplus.png" class="img-fluid" alt="" />
 						</header>
 					</div>
-					
 				</div>
 
 				<div class="row">
