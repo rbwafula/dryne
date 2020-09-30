@@ -3,6 +3,7 @@
 $menuitems = array();
 $menuitems[0] = array('home','Home');
 $menuitems[1] = array('about','About Us');
+$menuitems[2] = array('csr','CSR');
 
 /* Loop through menu array */
 foreach ($menuitems as $item) {
