@@ -4,8 +4,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Development extends CI_Controller {
 	public function index()
 	{
-		//$data['sociallinks'] = $this->model_social->getSocialLinks();
-
 		$headerdata = array(
 			'settings' => $this->model_settings->getSettings()
 		);

@@ -1,5 +1,6 @@
 application/config/config.php
 application/config/database.php
+assets/php/newsletter-subscribe.php
 .htaccess
 
 

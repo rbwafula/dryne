@@ -11,36 +11,6 @@
 			</div>
 			<div class="col-md-6 p-0">
 				<header id="header" class="p-4 p-md-5">
-					<!--<picture>
-					  <source 
-					    srcset="<?php echo base_url(); ?>assets/img/logo-dark.png" 
-					    media="(prefers-color-scheme: dark)">
-					  <img src="<?php echo base_url(); ?>assets/img/logo.png">
-					</picture>-->
-
-					<style type="text/css">
-						/* Dark mode */
-						@media (prefers-color-scheme: light) {
-						    div.test {
-						        background-color: white;
-						        color: black;
-						    }
-						}
-
-						/* Dark mode */
-						@media (prefers-color-scheme: dark) {
-						    div.test {
-						        background-color: black;
-						        color: #ff0;
-						    }
-						}
-					</style>
-					<div class="test">Test Data</div>
-
-
-
-
-
 					<a href="<?php echo base_url(); ?>">
 						<img alt="<?php echo $settings[0]->value; ?>" height="59" src="<?php echo base_url(); ?>assets/img/logo.png" class="appear-animation logo" data-appear-animation="fadeInRightShorter" data-plugin-options="{'accY': 100}">
 					</a>
@@ -95,18 +65,7 @@
 								
 								<div class="d-flex flex-column flex-lg-row justify-content-between align-items-center appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1400">
 									<ul class="social-icons social-icons-icon-primary social-icons-transparent social-icons-3 d-inline-flex">
-										<li class="social-icons-facebook">
-											<a href="<? echo $sociallinks[2]->link; ?>" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
-										</li>
-										<li class="social-icons-twitter">
-											<a href="<? echo $sociallinks[3]->link; ?>" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
-										</li>
-										<li class="social-icons-instagram">
-											<a href="<? echo $sociallinks[4]->link; ?>" target="_blank" title="Instragram"><i class="fab fa-instagram"></i></a>
-										</li>
-										<li class="social-icons-whatsapp">
-											<a href="whatsapp://send?abid=+254<?echo substr($sociallinks[0]->link,-9);?>&phone=+254<?echo substr($sociallinks[0]->link,-9);?>&text=Hi%2C%20I%27m%20interested%20in%20your%20services." target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
-										</li>
+										<?php include_once('includes/social.php'); ?>
 									</ul>
 									<div class="vertical-divider vertical-divider-size-1 opacity-4 d-none d-lg-block"></div>
 									<div class="d-flex align-items-center my-2 my-lg-0">
