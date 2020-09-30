@@ -1,5 +1,6 @@
 <?php
 /* Page Definitions in format url, PageName */
+$menuitems = array();
 $menuitems[0] = array('home','Home');
 $menuitems[1] = array('about','About Us');
 
