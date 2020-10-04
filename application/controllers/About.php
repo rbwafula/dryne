@@ -9,7 +9,7 @@ class About extends CI_Controller {
 		);
 
 		$data = array(
-		    'title' => 'My Title',
+		    'page' => 'about',
 		    'sociallinks' => $this->model_social->getSocialLinks()
 		);
 		$this->load->view('includes/header1', $headerdata);
