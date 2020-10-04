@@ -6,7 +6,7 @@
             <div id="revolutionSlider" class="slider rev_slider" data-version="5.4.8" data-plugin-revolution-slider data-plugin-options="{'delay': 9000, 'gridwidth': [1140,960,720,540], 'gridheight': [550,550,550,550], 'responsiveLevels': [4096,1200,992,576], 'parallax': { 'type': 'mouse', 'origo': 'slidercenter', 'speed': 2000, 'levels': [2,3,4,5,6,7,12,16,10,50], 'disable_onmobile': 'on' }, 'navigation' : {'arrows': { 'enable': false, 'hide_under': 767, 'style': 'slider-arrows-style-1' }, 'bullets': {'enable': false, 'style': 'bullets-style-1', 'h_align': 'center', 'v_align': 'bottom', 'space': 7, 'v_offset': 25, 'h_offset': 0}}}">
                 <ul style="padding-left:0px">
                     <li data-transition="fade">
-                        <img src="<?php echo base_url(); ?>assets/img/slides/multi-purpose/slide-1-1.jpg" alt="" data-bgposition="50% 20%" data-bgfit="cover" data-bgrepeat="no-repeat" data-kenburns="on" data-duration="12000" data-ease="Linear.easeNone" data-scalestart="110" data-scaleend="100" data-offsetstart="250 100" class="rev-slidebg">
+                        <img src="<?php echo base_url(); ?>assets/img/slides/home.jpg" alt="" data-bgposition="50% 20%" data-bgfit="cover" data-bgrepeat="no-repeat" data-kenburns="on" data-duration="12000" data-ease="Linear.easeNone" data-scalestart="110" data-scaleend="100" data-offsetstart="250 100" class="rev-slidebg">
 
                         <div class="tp-caption bg-primary d-none d-md-block" data-frames='[{"delay":3000,"speed":1300,"frame":"0","from":"opacity:0;x:-10%;skX:15deg;","to":"opacity:1;x:0;skX:15deg;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]' data-x="0" data-y="center" data-voffset="['-50','-50','-50','-50']" data-width="['20','20','20','20']" data-height="['98','98','98','98']"></div>
 
@@ -202,7 +202,7 @@
 					</section>
 				</div>
 				<div class="col-md-6 align-self-stretch p-0">
-					<div class="parallax section min-height-370 h-100" data-plugin-parallax data-plugin-options="{'speed': 1.5}" data-image-src="<?php echo base_url(); ?>assets/img/parallax/parallax-4.jpg"></div>
+					<div class="parallax section min-height-370 h-100" data-plugin-parallax data-plugin-options="{'speed': 1.5}" data-image-src="<?php echo base_url(); ?>assets/img/parallax/chess.jpg"></div>
 				</div>
 			</div>
 		</div>

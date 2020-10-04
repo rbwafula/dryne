@@ -1,7 +1,7 @@
 <div class="body">
 	<? include_once( 'includes/page-header1.php'); ?>
 	<div role="main" class="main">
-		<section class="hidden page-header parallax overlay overlay-color-dark overlay-show overlay-op-8 appear-animation mb-0" data-appear-animation="fadeIn" data-plugin-parallax data-plugin-options="{'speed': 1.5, 'parallaxHeight': '120%', 'offset': 60}" data-image-src="<?php echo base_url(); ?>assets/img/parallax/parallax-8.jpg">
+		<section class="page-header parallax overlay overlay-color-dark overlay-show overlay-op-8 appear-animation mb-0" data-appear-animation="fadeIn" data-plugin-parallax data-plugin-options="{'speed': 1.5, 'parallaxHeight': '120%', 'offset': 60}" data-image-src="<?php echo base_url(); ?>assets/img/parallax/header.jpg">
 			<div class="container py-1 my-4">
 				<div class="row">
 					<div class="col-md-12">
@@ -24,8 +24,8 @@
 					<div class="col-6 col-md-4 col-lg-5 col-xl-6 mr-sm-auto pb-5 mb-5 pb-md-0 mb-md-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400">
 						<div class="bg-primary position-relative mx-auto" data-plugin-float-element data-plugin-options="{'startPos': 'none', 'speed': 10, 'transition': true, 'style': 'max-width: 250px;'}">
 							<div class="rect-size"></div>
-							<img src="<?php echo base_url(); ?>assets/img/generic/generic-1.jpg" class="position-absolute" alt="" data-plugin-float-element data-plugin-options="{'startPos': 'none', 'speed': 9, 'horizontal': true, 'transition': true, 'style': 'top: 60px; right: -40%; width: 120%;'}" />
-							<img src="<?php echo base_url(); ?>assets/img/generic/generic-2.jpg" class="position-absolute" alt="" data-plugin-float-element data-plugin-options="{'startPos': 'none', 'speed': 8.5, 'transition': true, 'style': 'bottom: -40px; left: -40%; width: 160%;'}" />
+							<img src="<?php echo base_url(); ?>assets/img/generic/about2.jpg" class="position-absolute" alt="" data-plugin-float-element data-plugin-options="{'startPos': 'none', 'speed': 9, 'horizontal': true, 'transition': true, 'style': 'top: 60px; right: -40%; width: 120%;'}" />
+							<img src="<?php echo base_url(); ?>assets/img/generic/about1.jpg" class="position-absolute" alt="" data-plugin-float-element data-plugin-options="{'startPos': 'none', 'speed': 8.5, 'transition': true, 'style': 'bottom: -40px; left: -40%; width: 160%;'}" />
 						</div>
 					</div>
 					<div class="col-md-6">
@@ -137,7 +137,7 @@
 						</div>
 					</div>
 					<div class="col-md-6 p-0 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="200">
-						<div class="image-frame min-height-300 h-100" data-plugin-image-background data-plugin-options="{'imageUrl': '<?php echo base_url(); ?>assets/img/generic/generic-1.jpg'}"></div>
+						<div class="image-frame min-height-300 h-100" data-plugin-image-background data-plugin-options="{'imageUrl': '<?php echo base_url(); ?>assets/img/generic/accreditation.jpg'}"></div>
 					</div>
 				</div>
 			</div>
@@ -146,7 +146,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6 order-2 order-md-1 p-0 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="600">
-						<div class="image-frame min-height-300 h-100" data-plugin-image-background data-plugin-options="{'imageUrl': '<?php echo base_url(); ?>assets/img/generic/generic-3.jpg'}"></div>
+						<div class="image-frame min-height-300 h-100" data-plugin-image-background data-plugin-options="{'imageUrl': '<?php echo base_url(); ?>assets/img/generic/worker.jpg'}"></div>
 					</div>
 					<div class="col-md-6 order-1 order-md-2 p-0">
 						<div class="card bg-primary-2 border-0 h-100 py-1">
@@ -346,5 +346,5 @@
             </div>
         </div>
 	</div>
-	<?php include_once('includes/page-footer2.php'); ?>
+	<?php include_once('includes/page-footer1.php'); ?>
 </div>
