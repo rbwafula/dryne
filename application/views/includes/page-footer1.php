@@ -13,60 +13,55 @@
 				</div>
 			</div>
 		</div>
-		<div class="row pt-5 pb-5 mb-5" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">
+		<div class="row pt-5 pb-5 mb-0" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">
 			<div class="col-lg-4">
 				<div class="row">
 					<div class="col-12 col-md-4 col-lg-12 mb-lg-4">
 						<div class="icon-box icon-box-style-1">
 							<div class="icon-box-icon icon-box-icon-no-top pt-1">
-								<img width="32" src="img/icons/icon-4.svg" alt="" data-icon data-plugin-options="{'color': '#0F3964', 'animated': true, 'delay': 600}" />
-								<span class="opacity-5 stick-icon">
-									<img width="32" src="img/icons/icon-4.svg" alt="" data-icon data-plugin-options="{'color': '#0F3964', 'animated': true, 'delay': 600}" />
-								</span>
+								<i class="lnr lnr-apartment text-color-primary"></i>
 							</div>
 							<div class="icon-box-info mt-1">
 								<div class="icon-box-info-title">
 									<h3 class="font-weight-bold text-color-dark text-4 mb-0">Address</h3>
 								</div>
-								<p><? echo $sociallinks[5]->link; ?></p>
+								<p class="font-weight-semibold"><? echo $sociallinks[5]->link; ?></p>
 							</div>
 						</div>
 					</div>
 					<div class="col-12 col-md-4 col-lg-12 mb-lg-4">
 						<div class="icon-box icon-box-style-1">
-							<div class="icon-box-icon icon-box-icon-no-top pt-1">
-								<img width="32" src="img/icons/icon-4.svg" alt="" data-icon data-plugin-options="{'color': '#0F3964', 'animated': true, 'delay': 600}" />
-								<span class="opacity-5 stick-icon">
-									<img width="32" src="img/icons/icon-4.svg" alt="" data-icon data-plugin-options="{'color': '#0F3964', 'animated': true, 'delay': 600}" />
-								</span>
-							</div>
-							<div class="icon-box-info mt-1">
-								<div class="icon-box-info-title">
-									<h3 class="font-weight-bold text-color-dark text-4 mb-0">Email Address</h3>
+							<a href="mailto:<? echo $sociallinks[1]->link; ?>">
+								<div class="icon-box-icon icon-box-icon-no-top pt-1">
+									<i class="lnr lnr-envelope text-color-primary"></i>
 								</div>
-								<p><a href="mailto:<? echo $sociallinks[1]->link; ?>" class="font-weight-semibold"><? echo $sociallinks[1]->link; ?></a>
-								</p>
-							</div>
+								<div class="icon-box-info mt-1">
+									<div class="icon-box-info-title">
+										<h3 class="font-weight-bold text-color-dark text-4 mb-0">Email Address</h3>
+									</div>
+									<p><a href="mailto:<? echo $sociallinks[1]->link; ?>" class="font-weight-semibold"><? echo $sociallinks[1]->link; ?></a>
+									</p>
+								</div>
+							</a>
 						</div>
 					</div>
 					<div class="col-12 col-md-4 col-lg-12">
 						<div class="icon-box icon-box-style-1">
-							<div class="icon-box-icon icon-box-icon-no-top pt-1">
-								<img width="32" src="img/icons/icon-4.svg" alt="" data-icon data-plugin-options="{'color': '#0F3964', 'animated': true, 'delay': 600}" />
-								<span class="opacity-5 stick-icon">
-									<img width="32" src="img/icons/icon-4.svg" alt="" data-icon data-plugin-options="{'color': '#0F3964', 'animated': true, 'delay': 600}" />
-								</span>
-							</div>
-							<div class="icon-box-info mt-1">
-								<div class="icon-box-info-title">
-									<h3 class="font-weight-bold text-color-dark text-4 mb-0">Phone Number</h3>
+							<a href="tel:+254<? echo substr($sociallinks[0]->link, -9); ?>">
+								<div class="icon-box-icon icon-box-icon-no-top pt-1">
+									<i class="lnr lnr-phone-handset text-color-primary"></i>
 								</div>
-								<p>
-									<a href="tel:+254<? echo substr($sociallinks[0]->link, -9); ?>" class="font-weight-semibold">
-										<?php echo substr_replace(substr_replace($sociallinks[0]->link,' ', 4, 0),' ', 8, 0); ?>
-									</a>
-								</p>
-							</div>
+								<div class="icon-box-info mt-1">
+									<div class="icon-box-info-title">
+										<h3 class="font-weight-bold text-color-dark text-4 mb-0">Phone Number</h3>
+									</div>
+									<p class="font-weight-semibold">
+										<a href="tel:+254<? echo substr($sociallinks[0]->link, -9); ?>" class="font-weight-semibold">
+											<?php echo substr_replace(substr_replace($sociallinks[0]->link,' ', 4, 0),' ', 8, 0); ?>
+										</a>
+									</p>
+								</div>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -107,7 +102,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="footer-copyright footer-copyright-border-top bg-dark-5 py-5">
+	<div class="footer-copyright footer-copyright-border-top bg-dark-5 py-5 mt-0">
 		<div class="container">
 			<div class="row align-items-center justify-content-md-center">
 				<div class="col-12 col-lg-4 text-center text-lg-right order-3 order-lg-1">

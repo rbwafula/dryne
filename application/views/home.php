@@ -10,11 +10,11 @@
 
                         <div class="tp-caption bg-primary d-none d-md-block" data-frames='[{"delay":3000,"speed":1300,"frame":"0","from":"opacity:0;x:-10%;skX:15deg;","to":"opacity:1;x:0;skX:15deg;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]' data-x="0" data-y="center" data-voffset="['-50','-50','-50','-50']" data-width="['20','20','20','20']" data-height="['98','98','98','98']"></div>
 
-                        <div class="tp-caption text-color-light font-weight-light ws-normal letter-spacing-0" data-frames='[{"delay":2600,"speed":1300,"frame":"0","from":"opacity:0;y:10%;","to":"opacity:1;y:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]' data-x="35" data-y="center" data-voffset="['-85','-85','-85','-85']" data-width="['631','631','631','463']" data-textAlign="['left','left','left','center']" data-fontsize="['29','29','29','29']" data-lineheight="['34','34','34','34']">HERE'S YOUR NEW</div>
+                        <div class="tp-caption text-color-light font-weight-light ws-normal letter-spacing-0" data-frames='[{"delay":2600,"speed":1300,"frame":"0","from":"opacity:0;y:10%;","to":"opacity:1;y:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]' data-x="35" data-y="center" data-voffset="['-85','-85','-85','-85']" data-width="['631','631','631','463']" data-textAlign="['left','left','left','center']" data-fontsize="['29','29','29','29']" data-lineheight="['34','34','34','34']">Dryne Group</div>
 
-                        <h1 class="tp-caption text-color-light font-alternative font-weight-extra-bold ws-normal letter-spacing-0" data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:1.5;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]' data-x="35" data-y="center" data-voffset="['-25','10','10','10']" data-width="['635','635','635','468']" data-textAlign="['left','left','left','center']" data-fontsize="['67','67','67','55']" data-lineheight="['81','81','81','60']">WEBSITE DESIGN</h1>
+                        <h1 class="tp-caption text-color-light font-alternative font-weight-extra-bold ws-normal letter-spacing-0" data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:1.5;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]' data-x="35" data-y="center" data-voffset="['-25','10','10','10']" data-width="['635','635','635','468']" data-textAlign="['left','left','left','center']" data-fontsize="['52','52','52','52']" data-lineheight="['81','81','81','60']">CLEANING SOLUTIONS</h1>
 
-                        <div class="tp-caption text-color-light font-weight-extra-light ws-normal letter-spacing-0" data-frames='[{"delay":2600,"speed":1300,"frame":"0","from":"opacity:0;y:-10%;","to":"opacity:0.8;y:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]' data-x="35" data-hoffset="['-11','-11','-11','0']" data-y="center" data-voffset="['25','25','25','25']" data-width="['631','631','631','463']" data-textAlign="['right','right','right','center']" data-fontsize="['19','19','19','21']" data-lineheight="['23','23','23','26']">Create amazing solutions the easiest way.</div>
+                        <div class="tp-caption text-color-light font-weight-extra-light ws-normal letter-spacing-0" data-frames='[{"delay":2600,"speed":1300,"frame":"0","from":"opacity:0;y:-10%;","to":"opacity:0.8;y:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]' data-x="35" data-hoffset="['-11','-11','-11','0']" data-y="center" data-voffset="['25','25','25','25']" data-width="['631','631','631','463']" data-textAlign="['right','right','right','center']" data-fontsize="['19','19','19','21']" data-lineheight="['23','23','23','26']">The Ultimate Service Provider.</div>
 
                         <a class="tp-caption btn btn-rounded btn-primary font-weight-semibold letter-spacing-0" href="#start" data-hash data-hash-offset="65" data-frames='[{"delay":3400,"speed":1300,"frame":"0","from":"opacity:0;y:10%;","to":"opacity:1;y:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]' data-x="center" data-hoffset="['-10','-10','-10','0']" data-y="center" data-voffset="['100','100','100','100']" data-start="2100" data-whitespace="nowrap" data-fontsize="['14','14','14','19']" data-paddingtop="['17','17','17','21']" data-paddingbottom="['17','17','17','21']" data-paddingleft="['65','65','65','75']" data-paddingright="['65','65','65','75']">Get Started</a>
 
@@ -53,7 +53,7 @@
                                 <img width="42" src="<?php echo base_url(); ?>assets/vendor/linear-icons/home.svg" alt="" data-icon data-plugin-options="{'color': '#2388ED', 'animated': true, 'delay': 600}" />
                             </div>
                             <div class="icon-box-info">
-                                <span class="top-sub-title">Cleaning house</span>
+                                <span class="top-sub-title">Residential premises</span>
                                 <h2 class="font-weight-extra-bold line-height-1 text-5 mb-3">Domestic Solutions</h2>
                                 <p class="text-alternative-style pr-lg-4">Lorem ipsum dolor sit amet, sectetur adipiscing elit. Phasellus blanmassa enim. Nullam id varius.</p>
                             </div>
@@ -179,217 +179,33 @@
                 </div>
             </div>
         </section>
-        <div class="parallax section section-height-3 section-text-light curved-border curved-border-style-2 overlay overlay-color-dark overlay-show overlay-op-5" data-plugin-parallax data-plugin-options="{'speed': 1.5}" data-image-src="<?php echo base_url(); ?>assets/img/backgrounds/background-1.jpg">
-            <div class="container container-lg-custom pb-4 mb-md-5">
-                <div class="counters counters-light">
-                    <div class="row">
-                        <div class="col-sm-6 col-lg-3">
-                            <div class="counter">
-                                <strong data-to="100" data-append="+">0</strong>
-                                <label class="font-weight-light">Happy Clients</label>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-lg-3">
-                            <div class="counter">
-                                <strong data-to="36">0</strong>
-                                <label class="font-weight-light">Houses Cleaned</label>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-lg-3">
-                            <div class="counter">
-                                <strong data-to="12" data-append="+">0</strong>
-                                <label class="font-weight-light">Offices Cleaned</label>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-lg-3">
-                            <div class="counter">
-                                <strong data-to="300" data-append="+">0</strong>
-                                <label class="font-weight-light">Queries Responded</label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="section bg-light-5 pt-0">
-            <div class="container-fluid pt-5 pt-md-0 pt-lg-5 pt-xl-0">
-                <div class="row text-center">
-                    <div class="col">
-                        <span class="top-sub-title">WHAT THEY SAY</span>
-                        <h2 class="font-weight-extra-bold line-height-1 mb-3">We Are Not Alone</h2>
-                        <p class="lead mb-4">Our esteemed clients have made their opinions on the quality of our work.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-9 col-md-12 mx-auto double-carousel double-carousel-style-1" data-plugin-double-carousel data-plugin-options="{'autoplay': false, 'responsive': { '0': {'items': 1}, '479': {'items': 1}, '768': {'items': 1, 'dotsEach': 3}, '979': {'items': 2}, '1199': {'items': 3}}}">
-                        <div class="nav bg-light-5">
-                            <div class="title-left">
-                                <span>Testimonials <span>&</span></span>
-                            </div>
-                            <div class="title-right">
-                                <span>Partners</span>
-                            </div>
-                            <div class="arrows">
-                                <div class="arrow-left">
-                                    <i class="fas fa-chevron-left text-2"></i>
-                                </div>
-                                <div class="arrow-right">
-                                    <i class="fas fa-chevron-right text-2"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="wrapper-left appear-animation" data-appear-animation="doubleCarouselFadeInRight">
-                            <div class="owl-carousel owl">
-                                <div>
-                                    <div class="testimonial testimonial-style-3">
-                                        <div class="card rounded border-0">
-                                            <div class="card-body p-4">
-                                                <div class="text-primary text-0 mb-1">
-                                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                                                </div>
-                                                <p class="mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                                <strong class="text-color-dark font-italic">John Doe</strong>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div class="testimonial testimonial-style-3">
-                                        <div class="card rounded border-0">
-                                            <div class="card-body p-4">
-                                                <div class="text-primary text-0 mb-1">
-                                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                                                </div>
-                                                <p class="mb-1">Lorem ipsum dolor sit amet, consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                                <strong class="text-color-dark font-italic">Bob Doe</strong>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div class="testimonial testimonial-style-3">
-                                        <div class="card rounded border-0">
-                                            <div class="card-body p-4">
-                                                <div class="text-primary text-0 mb-1">
-                                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                                                </div>
-                                                <p class="mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                                <strong class="text-color-dark font-italic">Monica Doe</strong>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div class="testimonial testimonial-style-3">
-                                        <div class="card rounded border-0">
-                                            <div class="card-body p-4">
-                                                <div class="text-primary text-0 mb-1">
-                                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                                                </div>
-                                                <p class="mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                                <strong class="text-color-dark font-italic">Greg Doe</strong>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div class="testimonial testimonial-style-3">
-                                        <div class="card rounded border-0">
-                                            <div class="card-body p-4">
-                                                <div class="text-primary text-0 mb-1">
-                                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                                                </div>
-                                                <p class="mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                                <strong class="text-color-dark font-italic">Robert Doe</strong>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div class="testimonial testimonial-style-3">
-                                        <div class="card rounded border-0">
-                                            <div class="card-body p-4">
-                                                <div class="text-primary text-0 mb-1">
-                                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                                                </div>
-                                                <p class="mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                                <strong class="text-color-dark font-italic">Greg Doe</strong>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div class="testimonial testimonial-style-3">
-                                        <div class="card rounded border-0">
-                                            <div class="card-body p-4">
-                                                <div class="text-primary text-0 mb-1">
-                                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                                                </div>
-                                                <p class="mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                                <strong class="text-color-dark font-italic">Robert Doe</strong>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="wrapper-right appear-animation" data-appear-animation="doubleCarouselFadeInLeft">
-                            <div class="owl-carousel owl">
-                                <div>
-                                    <div class="card card-logo rounded border-0">
-                                        <div class="card-body p-0">
-                                            <img src="<?php echo base_url(); ?>assets/img/logos/logo-2.png" class="img-fluid" alt="" />
-                                        </div>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div class="card card-logo rounded border-0">
-                                        <div class="card-body p-0">
-                                            <img src="<?php echo base_url(); ?>assets/img/logos/logo-3.png" class="img-fluid" alt="" />
-                                        </div>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div class="card card-logo rounded border-0">
-                                        <div class="card-body p-0">
-                                            <img src="<?php echo base_url(); ?>assets/img/logos/logo-5.png" class="img-fluid" alt="" />
-                                        </div>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div class="card card-logo rounded border-0">
-                                        <div class="card-body p-0">
-                                            <img src="<?php echo base_url(); ?>assets/img/logos/logo-6.png" class="img-fluid" alt="" />
-                                        </div>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div class="card card-logo rounded border-0">
-                                        <div class="card-body p-0">
-                                            <img src="<?php echo base_url(); ?>assets/img/logos/logo-7.png" class="img-fluid" alt="" />
-                                        </div>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div class="card card-logo rounded border-0">
-                                        <div class="card-body p-0">
-                                            <img src="<?php echo base_url(); ?>assets/img/logos/logo-8.png" class="img-fluid" alt="" />
-                                        </div>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div class="card card-logo rounded border-0">
-                                        <div class="card-body p-0">
-                                            <img src="<?php echo base_url(); ?>assets/img/logos/logo-9.png" class="img-fluid" alt="" />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <div class="container-fluid">
+			<div class="row align-items-center">
+				<div class="col-md-6 p-0">
+					<section class="section bg-light-5">
+						<div class="row justify-content-end m-0">
+							<div class="col-half-section pr-md-5">
+								<div class="overflow-hidden">
+									<span class="d-block top-sub-title text-color-primary d-block appear-animation" data-appear-animation="maskUp">THE RIGHT CHOICE</span>
+								</div>
+								<div class="overflow-hidden">
+									<h2 class="font-weight-bold mb-4 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="200">Reasons to Choose Us</h2>
+								</div>
+								<ul class="list list-unstyled list-icons-size-2 mb-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400">
+									<li class="d-flex align-items-center text-2 pb-1 mb-2"><i class="fas fa-check text-color-primary text-2 mr-2"></i> Certified Professional Cleaners.</li>
+									<li class="d-flex align-items-center text-2 pb-1 mb-2"><i class="fas fa-check text-color-primary text-2 mr-2"></i> Encrionmentally Friendly Cleaning.</li>
+									<li class="d-flex align-items-center text-2 pb-1 mb-2"><i class="fas fa-check text-color-primary text-2 mr-2"></i> 100% Satisfaction Guaranteed.</li>
+									<li class="d-flex align-items-center text-2 pb-1 mb-2"><i class="fas fa-check text-color-primary text-2 mr-2"></i> Available Evenings &amp; Weekends.</li>
+								</ul>
+							</div>
+						</div>
+					</section>
+				</div>
+				<div class="col-md-6 align-self-stretch p-0">
+					<div class="parallax section min-height-370 h-100" data-plugin-parallax data-plugin-options="{'speed': 1.5}" data-image-src="<?php echo base_url(); ?>assets/img/parallax/parallax-4.jpg"></div>
+				</div>
+			</div>
+		</div>
     </div>
 
     <?php include_once('includes/page-footer1.php'); ?>

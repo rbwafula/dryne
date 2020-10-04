@@ -40,6 +40,10 @@
 			ga('send', 'pageview');
 		</script>
 		 -->
-
+		 <?php 
+		 	if ($page == 'contact') {
+		 		include_once('googlemaps.php');
+		 	}
+		 ?>
 	</body>
 </html>
