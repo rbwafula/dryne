@@ -21,6 +21,9 @@
 		<!-- Current Page Vendor and Views -->
 		<script src="<?php echo base_url(); ?>assets/vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
 		<script src="<?php echo base_url(); ?>assets/vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
+		<!-- Contact -->
+		<script src="<?php echo base_url(); ?>assets/js/views/view.contact.js"></script>
 		
 		<!-- Theme Custom -->
 		<script src="<?php echo base_url(); ?>assets/js/custom.js"></script>
