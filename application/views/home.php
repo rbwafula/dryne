@@ -94,7 +94,7 @@
                             <span class="top-sub-title">THE RIGHT CHOICE</span>
 
                             <h2 class="word-rotator letters type font-weight-extra-bold text-6 mb-3">
-								<span>Dryne. Your </span> 
+								<span>Your </span> 
 								<span class="word-rotator-words waiting">
 									<b class="is-visible">ultimate service provider.</b>
 									<b>reliable cleaning solutions.</b>

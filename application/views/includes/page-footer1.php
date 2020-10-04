@@ -67,7 +67,7 @@
 				</div>
 			</div>
 			<div class="col-lg-8 mb-5">
-				<form class="contact-form form-style-2" action="php/contact-form.php" method="POST">
+				<form class="contact-form form-style-2" action="<?php echo base_url(); ?>assets/php/contact-form.php" method="POST">
 					<div class="contact-form-success alert alert-success d-none">
 						<strong>Success!</strong> Your message has been sent to us.
 					</div>
