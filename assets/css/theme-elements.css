@@ -3783,6 +3783,7 @@ html.ie .owl-carousel .image-frame .image-frame-wrapper a > img {
 	backface-visibility: hidden;
 	transition: transform 0.3s, top 0.3s;
 	transform: rotate(-45deg) translate3d(0, -50%, 0);
+	transform: scale(1);
 	transform-origin: 50%;
 }
 
@@ -5951,6 +5952,7 @@ html.ie .effect-text-background {
 }
 
 .particles-behind .g-particles {
+	transform: scale(1);
 	transform-origin: center;
 }
 
@@ -10662,6 +10664,7 @@ html.safari.iphone .bounce-loader .bounce3 {
 }
 
 .particles .svg-particles .g-particles {
+	transform: scale(1);
 	transform-origin: center;
 }
 
@@ -11980,6 +11983,7 @@ ul.comments .comment-block .comment-by .comment-rating {
 
 .word-rotator.rotate-1 b {
 	opacity: 0;
+	transform: scale(1);
 	transform-origin: 50% 100%;
 	transform: rotateX(180deg);
 }

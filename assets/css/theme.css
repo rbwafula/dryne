@@ -410,6 +410,7 @@ li {
 	height: 1px;
 	background: #1c1f21;
 	transition: ease all 300ms;
+	transform: scale(1);
 	transform-origin: 50% 0;
 }
 
@@ -1773,6 +1774,7 @@ html:not(.sticky-header-active) #header.header-transparent-sticky-deactive .head
 		height: 100%;
 		right: 5px;
 		top: 0;
+		transform: scale(1);
 		transform-origin: center;
 		transition: ease transform 800ms;
 	}
@@ -1999,6 +2001,7 @@ html.side-header:not(.side-header-from-out) #header {
 	html.side-header #header .header-nav-main nav > ul > li a.dropdown-toggle .menu-arrow {
 		display: block;
 		right: 0;
+		transform: scale(1);
 		transform-origin: center;
 		transition: ease transform 800ms;
 	}
@@ -2443,6 +2446,7 @@ html.side-header-overlay-full-screen #header .header-nav-main nav > ul > li a .m
 
 html.side-header-overlay-full-screen #header .header-nav-main nav > ul > li a.dropdown-toggle .menu-arrow {
 	display: block;
+	transform: scale(1);
 	transform-origin: center;
 	transition: ease transform 800ms;
 }
