@@ -1,8 +1,20 @@
 application/config/config.php
 application/config/database.php
+application/controllers/Welcome.php
+application/views/new.php
+application/views/welcome_message.php
+assets/ajax
+assets/css/demos
+assets/img
 assets/php/newsletter-subscribe.php
+assets/video
 .htaccess
-
+composer.json
+contributing.md
+license.txt
+README.md
+readme.rst
+README2.md
 
 # System or Log Files
 *.DS_Store
@@ -43,6 +55,7 @@ docs_html/
 # ETC
 TODO
 test.html
+test.php
 ad.js
 
 
