@@ -23,6 +23,7 @@ README2.md
 
 # Archives
 *.zip
+*.tar.gz
 
 # Sass Cache
 .sass-cache
