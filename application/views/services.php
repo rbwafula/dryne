@@ -91,7 +91,7 @@
 					</section>
 				</div>
 				<div class="col-md-6 p-0 order-1 order-md-2">
-					<div class="parallax h-100" data-plugin-parallax data-plugin-options="{'speed': 1.5, 'minHeight': 371}" data-image-src="<?php echo base_url(); ?>assets/img/parallax/office.jpg"></div>
+					<div class="parallax h-100" data-plugin-parallax data-plugin-options="{'speed': 1.5, 'minHeight': 371}" data-image-src="<?php echo base_url(); ?>assets/img/parallax/industrial.jpg"></div>
 				</div>
 			</div>
 			<div class="row">
