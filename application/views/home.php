@@ -28,7 +28,7 @@
 					<div class="col-md-9 col-lg-9 appear-animation" data-appear-animation="fadeInRightShorter">
 						<div class="call-to-action-content appear-animation" data-appear-animation="fadeInLeftShorter">
 							<h2 class="font-weight-bold text-5">Call us now <a href="tel:+254<? echo substr($sociallinks[0]->link, -9); ?>" class="text-color-primary"><?php echo substr_replace(substr_replace($sociallinks[0]->link,' ', 4, 0),' ', 8, 0); ?></a> or send an email <a href="mailto:<? echo $sociallinks[1]->link; ?>" class="text-underline text-color-primary"><? echo $sociallinks[1]->link; ?></a></h2>
-							<p class="font-weight-light mb-0">Lorem ipsum dolor sit amet, coctetur adipiscing elit. Phasellus blandit assa enim. Nullam id varius.</p>
+							<p class="font-weight-light mb-0">to book an appointment for a free quote and more information.</p>
 						</div>
 					</div>
 					<div class="col-md-3 col-lg-3 appear-animation" data-appear-animation="fadeInLeftShorter">
@@ -53,9 +53,9 @@
                                 <img width="42" src="<?php echo base_url(); ?>assets/vendor/linear-icons/home.svg" alt="" data-icon data-plugin-options="{'color': '#2388ED', 'animated': true, 'delay': 600}" />
                             </div>
                             <div class="icon-box-info">
-                                <span class="top-sub-title">Residential premises</span>
+                                <span class="top-sub-title">Residential and office premises</span>
                                 <h2 class="font-weight-extra-bold line-height-1 text-5 mb-3">Domestic Solutions</h2>
-                                <p class="text-alternative-style pr-lg-4">Lorem ipsum dolor sit amet, sectetur adipiscing elit. Phasellus blanmassa enim. Nullam id varius.</p>
+                                <p class="text-alternative-style pr-lg-4">We offer professional carpet cleaning, deep cleaning carpets of all sizes, quality, dirt levels. We walk you through the process used to clean the carpet, offering you confidence in the technology and products used to clean your carpet.</p>
                             </div>
                         </div>
                     </div>
@@ -65,21 +65,21 @@
                                 <img width="42" src="<?php echo base_url(); ?>assets/vendor/linear-icons/store.svg" alt="" data-icon data-plugin-options="{'color': '#2388ED', 'animated': true, 'delay': 900}" />
                             </div>
                             <div class="icon-box-info">
-                                <span class="top-sub-title">Work environment</span>
+                                <span class="top-sub-title">Manufacturing environment</span>
                                 <h2 class="font-weight-extra-bold line-height-1 text-5 mb-3">Industrial Solutions</h2>
-                                <p class="text-alternative-style pr-lg-4">Lorem ipsum dolor sit amet, sectetur adipiscing elit. Phasellus blanmassa enim. Nullam id varius.</p>
+                                <p class="text-alternative-style pr-lg-4">We provide cleaning solutions and have served several industries. Some of these services include: Warehouse Floor and wall Cleaning, Truss and Q-Deck ceiling cleaning, Dust Control and Pallet rack cleaning.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="icon-box icon-box-style-1 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="300">
                             <div class="icon-box-icon pr-3">
-                                <img width="42" src="<?php echo base_url(); ?>assets/vendor/linear-icons/construction.svg" alt="" data-icon data-plugin-options="{'color': '#2388ED', 'animated': true, 'delay': 1200}" />
+                                <img width="42" src="<?php echo base_url(); ?>assets/vendor/linear-icons/cart.svg" alt="" data-icon data-plugin-options="{'color': '#2388ED', 'animated': true, 'delay': 1200}" />
                             </div>
                             <div class="icon-box-info">
-                                <span class="top-sub-title">Your Custom Solution</span>
-                                <h2 class="font-weight-extra-bold line-height-1 text-5 mb-3">Bespoke Solutions</h2>
-                                <p class="text-alternative-style pr-lg-4">Lorem ipsum dolor sit amet, sectetur adipiscing elit. Phasellus blanmassa enim. Nullam id varius.</p>
+                                <span class="top-sub-title">Trusted Cleaning Products</span>
+                                <h2 class="font-weight-extra-bold line-height-1 text-5 mb-3">Janitorial Supplies</h2>
+                                <p class="text-alternative-style pr-lg-4">We also offer a unique janitorial cleaning supplies service, at very competitive rates. We supply both commercial and domestic markets and aim to provide our customers with top quality cleaning supplies at some of the best prices available.</p>
                             </div>
                         </div>
                     </div>
@@ -202,7 +202,7 @@
 					</section>
 				</div>
 				<div class="col-md-6 align-self-stretch p-0">
-					<div class="parallax section min-height-370 h-100" data-plugin-parallax data-plugin-options="{'speed': 1.5}" data-image-src="<?php echo base_url(); ?>assets/img/parallax/chess.jpg"></div>
+					<div class="parallax section min-height-370 h-100" data-plugin-parallax data-plugin-options="{'speed': 1.5}" data-image-src="<?php echo base_url(); ?>assets/img/parallax/reasontochooseus.jpg"></div>
 				</div>
 			</div>
 		</div>

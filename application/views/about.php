@@ -24,8 +24,8 @@
 					<div class="col-6 col-md-4 col-lg-5 col-xl-6 mr-sm-auto pb-5 mb-5 pb-md-0 mb-md-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400">
 						<div class="bg-primary position-relative mx-auto" data-plugin-float-element data-plugin-options="{'startPos': 'none', 'speed': 10, 'transition': true, 'style': 'max-width: 250px;'}">
 							<div class="rect-size"></div>
-							<img src="<?php echo base_url(); ?>assets/img/generic/about2.jpg" class="position-absolute" alt="" data-plugin-float-element data-plugin-options="{'startPos': 'none', 'speed': 9, 'horizontal': true, 'transition': true, 'style': 'top: 60px; right: -40%; width: 120%;'}" />
-							<img src="<?php echo base_url(); ?>assets/img/generic/about1.jpg" class="position-absolute" alt="" data-plugin-float-element data-plugin-options="{'startPos': 'none', 'speed': 8.5, 'transition': true, 'style': 'bottom: -40px; left: -40%; width: 160%;'}" />
+							<img src="<?php echo base_url(); ?>assets/img/generic/about4.jpg" class="position-absolute" alt="" data-plugin-float-element data-plugin-options="{'startPos': 'none', 'speed': 9, 'horizontal': true, 'transition': true, 'style': 'top: 60px; right: -40%; width: 120%;'}" />
+							<img src="<?php echo base_url(); ?>assets/img/generic/about3.jpg" class="position-absolute" alt="" data-plugin-float-element data-plugin-options="{'startPos': 'none', 'speed': 8.5, 'transition': true, 'style': 'bottom: -40px; left: -40%; width: 160%;'}" />
 						</div>
 					</div>
 					<div class="col-md-6">
@@ -79,17 +79,17 @@
 								<div class="row align-items-center">
 									<div class="col-md-2 ml-auto mb-4 mb-md-0">
 										<div class="testimonial-author-image">
-											<img src="<?php echo base_url(); ?>assets/img/authors/author-1.jpg" class="img-fluid rounded-circle" alt="" />
+											<img src="<?php echo base_url(); ?>assets/img/authors/director.jpg" class="img-fluid rounded-circle" alt="" />
 										</div>
 									</div>
 									<div class="col-md-9 mr-auto pl-4">
 										<div class="testimonial testimonial-style-1">
 											<blockquote>
-												<p>" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam magna purus, aliquet vitae nisi ac, aliquet consectetur est. Suspendisse mattis eu urna eget sodales. Phasellus a vehicula risus. Donec pharetra lectus quis. "</p>
+												<p>" At dryne cleaning group we always focus on giving our clients quality and outstanding service that they deserve. We are here to make sure that your needs are met and that your environment is serene and sparkling clean. Get intouch with us today and experience the difference. "</p>
 											</blockquote>
 											<div class="testimonial-author">
 												<span>
-													<strong>- Derrick Ngala</strong>
+													<strong>- Dereck Ngala</strong>
 													<span>Director, Dryne Group</span>
 												</span>
 											</div>
@@ -107,11 +107,11 @@
 									<div class="col-md-9 mr-auto pl-4">
 										<div class="testimonial testimonial-style-1">
 											<blockquote>
-												<p>" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam magna purus, aliquet vitae nisi ac, aliquet consectetur est. Suspendisse mattis eu urna eget sodales. Phasellus a vehicula risus. Donec pharetra lectus quis. "</p>
+												<p>" We offer just in time service to all our clients, we are always cautious to save time for the client and still deliver good quality service at an affordable price. Use our book now section  and change your environment "</p>
 											</blockquote>
 											<div class="testimonial-author">
 												<span>
-													<strong>- Yvonne</strong>
+													<strong>- Yvonne Nyabuto</strong>
 													<span>CEO, Dryne Group</span>
 												</span>
 											</div>
@@ -131,8 +131,7 @@
 						<div class="card bg-primary border-0 h-100 py-1">
 							<div class="card-body p-5">
 								<h2 class="font-weight-bold text-color-light text-5 mb-3">Our Accreditation</h2>
-								<p class="text-color-light opacity-7 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius nunc. Lorem ipsum dolor sit amet.</p>
-								<!--<a href="portfolio-sidebar-right.html" class="learn-more text-color-light font-weight-semibold">OUR PORTFOLIO <i class="fas fa-angle-right"></i></a>-->
+								<p class="text-color-light opacity-7 mb-4">Our company offers education and training on professional cleaning and sanitation techniques to our staff equipping them with the skills and the expertise to be able to perform an outstanding job.</p>
 							</div>
 						</div>
 					</div>
@@ -162,9 +161,6 @@
 				</div>
 			</div>
 		</section>
-
-
-
 		
 		<div class="section bg-light-5">
             <div class="container-fluid pt-5 pt-md-0 pt-lg-5 pt-xl-0">
@@ -175,7 +171,38 @@
                         <p class="lead mb-4">Our esteemed clients have made their opinions on the quality of our work.</p>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row justify-content-center">
+					<div class="col-10 col-sm-8 col-md-12 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-duration="700ms">
+						<div class="owl-carousel carousel-center-active-items carousel-center-active-items-style-4" data-plugin-carousel data-plugin-options="{'autoplay': false, 'dots': false, 'nav': true, 'loop': true, 'margin': 30, 'responsive': { '0': {'items': 1}, '576': {'items': 1}, '768': {'items': 3}, '992': {'items': 5}, '1200': {'items': 5}}}">
+							<?php
+
+							/* Loop through menu array */
+							foreach ($testimonials as $testimonial) {
+								echo '<div>';
+								echo	'<div class="testimonial testimonial-style-3">';
+								echo		'<div class="card rounded border-0">';
+								echo			'<div class="card-body p-3">';
+								echo				'<div class="mb-1 text-primary">';
+														for ($i=0; $i<$testimonial->stars; $i++) {
+								echo 						'<i class="fas fa-star"></i>';
+														}					
+								echo				'</div>';
+								echo				'<p class="mb-1">'.$testimonial->comment.'</p>';
+								echo				'<strong class="text-color-dark">'.$testimonial->names.'</strong>';
+								echo			'</div>';
+								echo		'</div>';
+								echo	'</div>';
+								echo '</div>';
+							}
+							?>
+						</div>
+					</div>
+				</div>
+
+
+
+
+                <!--<div class="row">
                     <div class="col-9 col-md-12 mx-auto double-carousel double-carousel-style-1" data-plugin-double-carousel data-plugin-options="{'autoplay': false, 'responsive': { '0': {'items': 1}, '479': {'items': 1}, '768': {'items': 1, 'dotsEach': 3}, '979': {'items': 2}, '1199': {'items': 3}}}">
                         <div class="nav bg-light-5">
                             <div class="title-left">
@@ -342,7 +369,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>-->
             </div>
         </div>
 	</div>
